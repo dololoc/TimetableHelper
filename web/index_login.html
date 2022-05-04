@@ -8,15 +8,20 @@
     <title>loginPage</title>
 </head>
 <body>
-    <div>
+    <div id="login_box">
         <h1>시간표 도우미</h1>
-        <form action="">
-            <label for="id">학번:</label>
-            <input type="text" id="id" name="id"><br><br>
-            <label for="pw">PW:</label>
-            <input type="password" id="pw" name="pw"><br><br>
-            <input type="submit" value="로그인">
+        <form action="login.php" id="login_form">
+            <div class="login_form_p">
+            <label for="id" class="login_label">학번</label><br>
+            <input type="text" id="id" name="id" class="login_input">
+            </div>
+            <div class="login_form_p">
+            <label for="pw" class="login_label">비밀번호</label><br>
+            <input type="password" id="pw" name="pw" class="login_input">
+            </div>
+            <input type="submit" value="로그인" id="login_button">
         </form>
+        <div id="signupbutton">회원가입</div>
     </div>
 </body>
 </html>

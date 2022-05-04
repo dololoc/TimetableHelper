@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_signup.css">
     <title>SignUp Page</title>
 </head>
 <body>
-    <div>
+    <div id="signup_body">
         <h1>회원가입</h1>
-        <form action="">
-            <label for="id">학번 : </label>
-            <input type="text" id="id" name="id"><br><br>
-            <label for="pw">비밀번호 : </label>
-            <input type="password" id="pw" name="pw"><br><br>
-            <label for="pw_check">비밀번호 확인 : </label>
-            <input type="password" id="pw_check" name="pw_check"><br><br>
-            <br><br>
-            <label for="major">전공 선택</label>
-            <select name="major" id="major">
+        <form action="" id="signup_form">
+            <div class="signup_form_p">
+            <label for="id" class="signup_label">학번</label><br>
+            <input type="text" id="id" class="signup_input" name="id"></div>
+            <div class="signup_form_p">
+            <label for="pw" class="signup_label">비밀번호</label><br>
+            <input type="password" id="pw" class="signup_input" name="pw"></div>
+            <div class="signup_form_p">
+            <label for="pw_check" class="signup_label">비밀번호 확인</label><br>
+            <input type="password" id="pw_check" class="signup_input" name="pw_check"></div>
+            <div class="signup_form_p">
+            <label for="major" class="signup_label" id="major_label">전공</label>
+            <label for="year" class="signup_label" id="year_label">학년</label><br>
+            <select name="major" id="major_select">
                 <option value="">------------선택------------</option>
                 <option value="">전자전기공학부</option>
                 <option value="">컴퓨터공학과</option>
@@ -57,17 +62,16 @@
                 <option value="">뮤지컬전공</option>
                 <option value="">실용음악전공</option>
             </select>
-            <label for="year">학년 선택</label>
-            <select name="year" id="year">
-                <option value="">-------선택-------</option>
+            <select name="year" id="year_select">
+                <option value="">-----선택-----</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
                 <option value="5">5학년 이상</option>
             </select>
-            <br><br>
-            <input type="submit" value="회원가입">
+            </div>
+            <input type="submit" value=">" id="next_button">
         </form>
     </div>
 </body>

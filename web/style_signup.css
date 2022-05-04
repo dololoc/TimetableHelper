@@ -1,0 +1,60 @@
+body{width: 100%; height: 100%; position: relative; margin: 0; background-color: #ffffff;}
+#signup_body{
+    position: relative; width: 320px; height: 500px; top: 50vh; left: 50vw;
+    margin-left: -240px; margin-top: -320px;
+    padding: 80px; padding-top: 40px;
+    text-align: left; border-width: 1px; border-style: solid; border-color: #5472d3; border-radius: 4px;
+}
+
+h1{color: #002071; font-size: 1rem; text-align: center; line-height: 1.6rem;}
+#signup_form{margin-top: 4vh; font-size: 0.92rem;}
+.signup_form_p{width: auto; height: 80px;margin-top: 20px;}
+.signup_label{margin-left: 2px; color: #002071; font-style: bold;}
+.signup_input{
+    position: absolute; width:300px; height: 3rem; left: 80px; padding-left: 20px;
+    border-width: 1px; border-color: #5472d3; border-radius: 10px;
+}
+
+#major_label{
+    position: relative; width: 160px;
+}
+#year_label{
+    position: relative; width: 92px; margin-left: 188px;
+}
+#major_select{
+    position: relative; width:160px; height: 2.4rem; padding-left: 4px;
+    border-width: 1px; border-color: #5472d3; border-radius: 10px;
+    background-color: #f1f1f1;
+}
+#year_select{
+    position: relative; width:100px; height: 2.4rem; padding-left: 4px; margin-left: 56px;
+    border-width: 1px; border-color: #5472d3; border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+#next_button{
+    position:absolute; margin-top: 40px;
+    width:48px; left:216px; height:3rem; font-size:1rem;
+    background-color: #002171; color:#ffffff; border: none; border-radius: 40px;
+}
+
+h2{ font-weight: bold; font-size: 0.92rem;}
+
+#required, #required_right{
+    list-style-type: none; margin: 0; padding: 0;
+    position: absolute; top: 140px;
+}
+
+#required li, #required_right li{
+    height: 1.6rem;
+}
+
+#required_right{
+    position: absolute; left: 260px;
+}
+
+#signup_button{
+    position:absolute; margin-top: 340px;
+    width:280px; left:100px; height:3rem; font-size:1rem;
+    background-color: #002171; color:#ffffff; border: none; border-radius: 40px;
+}

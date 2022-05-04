@@ -4,46 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_signup.css">
     <title>getTakenClassPage</title>
 </head>
 <body>
-    <div>
-        <h1>이미 들은 필수교양과 핵심교양 영역을 선택해주세요</h1>
-        <form action="">
+    <div id="signup_body">
+        <h1>이미 수강한 필수교양과 핵심교양 영역을 <br> 선택해주세요</h1>
+        <form action="" id="signup_form">
+            <div>
             <ul id="required">
+                <h2>필수교양</h2>
                 <li>
-                    <label for="">영어</label> <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value=""> <label for="">영어</label>
                 </li>
                 <li>
-                    <label for="">전공기초영어</label> <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value=""> <label for="">전공기초영어</label>
                 </li>
                 <li>
-                    <label for="">논리적사고와글쓰기</label> <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value=""> <label for="">논리적사고와글쓰기</label>
+                </li> <br>
+            </ul>
+            </div>
+            <div>
+            <ul id="required_right">
+                <h2>핵심교양영역</h2>
+                <li>
+                    <input type="checkbox" id="" name="" value=""> <label for="">예술과디자인</label>
                 </li>
                 <li>
-                    <label for="">예술과디자인</label> <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value=""> <label for="">제2외국어와한문</label>
                 </li>
                 <li>
-                    <label for="">제2외국어와한문</label> <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value=""> <label for="">과학과컴퓨터</label>
                 </li>
                 <li>
-                    <label for="">과학과컴퓨터</label> <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value=""> <label for="">언어와철학</label>
                 </li>
                 <li>
-                    <label for="">언어와철학</label> <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value=""> <label for="">법과생활</label>
                 </li>
                 <li>
-                    <label for="">법과생활</label> <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value=""> <label for="">사회와경제</label>
                 </li>
                 <li>
-                    <label for="">사회와경제</label> <input type="checkbox" id="" name="" value="">
-                </li>
-                <li>
-                    <label for="">역사와문화</label> <input type="checkbox" id="" name="" value="">
+                    <input type="checkbox" id="" name="" value=""> <label for="">역사와문화</label>
                 </li>
             </ul>
+            </div>
 
-            <input type="submit" name="SignUp_2" id="SignUp_2" value="회원가입">
+            <input type="submit" name="SignUp_2" id="signup_button" value="회원가입">
         </form>
     </div>
 </body>
