@@ -1,0 +1,19 @@
+body{width: 100%; height: 100%; position: relative; margin: 0; background-color: #ffffff;}
+#makeNewTimetable_body{
+    position: relative; width: 660px; height: 600px; top: 50vh; left: 50vw;
+    margin-left: -330px; margin-top: -300px;
+    
+}
+.container{
+    position:absolute; width: 100%; height: 400px;
+    text-align: left; border-width: 1px; border-style: solid; border-color: #5472d3; border-radius: 4px;
+}
+
+h1{color: #002071; font-size: 1.2rem; text-align: center; line-height: 1.6rem; font-weight:600}
+h2{color: #191919; font-size: 0.8rem; text-align: center; line-height: 1.6rem; font-weight: 400;}
+
+#makeNewTimetable_button{
+    position:absolute;
+    width:280px; left:190px; height:3rem; top:500px; font-size:1rem;
+    background-color: #002171; color:#ffffff; border: none; border-radius: 40px;
+}
